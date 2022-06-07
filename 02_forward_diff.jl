@@ -35,12 +35,9 @@ Base.convert(::Type{Dual{T}}, d::Real) where T = Dual(convert(T, d), zero(T))
 Base.promote_rule(::Type{Dual{T}}, ::Type{R}) where {T,R} = Dual{promote_type(T,R)}
 Base.promote_rule(::Type{Dual{T}}, ::Type{Dual{R}}) where {T<:Real, R<:Real} = Dual{promote_type(T,R)}
 
-# This will give an error
-# +sin(Dual(1.0,1.0))
 
 
 ## Let us create a utility to differentiate any function
-
 f(x) = x / (1 + x*x)
 f(5.)
 f(Dual(5., 1.))
