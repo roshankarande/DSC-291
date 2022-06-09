@@ -19,7 +19,6 @@
 -   autodiff - Code related to automatic differentiation
 -   machine learning - Code related to machine learning libraries
 -   optimization - Code related to optimization libraries
--   docs - Documents referred + Final Presentation
 
 
 # Running the Code
