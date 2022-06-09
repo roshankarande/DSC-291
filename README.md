@@ -25,7 +25,6 @@
 
 In order to run the code one would have to install Julia and Python and also the libraries that are listed below - 
 
-
 # Third Party Modules
 - pyomo (Python Optimization)
 - cvxpy (Python Convex Optimization)
@@ -40,3 +39,10 @@ In order to run the code one would have to install Julia and Python and also the
 - ReverseDiff (Julia - Automatic Differentiation)
 - Zygote (Julia - Automatic Differentiation)
 - Enzyme(Julia - Automatic Differentiation)
+
+# Results
+- autodiff/benchmarks.jl
+![Auto diff benchmarks](./other/benchmarks.png)
+
+- ml/machine_learning/pytorch_flux_basic1.jl
+![Pytorch flux basic](./other/ml.png)
