@@ -10,7 +10,6 @@
 
 ```powershell
 ├───autodiff
-├───docs
 ├───machine_learning
 ├───optimization
 └───other
