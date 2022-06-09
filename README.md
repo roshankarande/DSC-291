@@ -10,7 +10,6 @@
 
 ```powershell
 ├───autodiff
-├───docs
 ├───machine_learning
 ├───optimization
 └───other
@@ -20,7 +19,6 @@
 -   autodiff - Code related to automatic differentiation
 -   machine learning - Code related to machine learning libraries
 -   optimization - Code related to optimization libraries
--   other - Basic operations (midterm presentation code)
 -   docs - Documents referred + Final Presentation
 
 
