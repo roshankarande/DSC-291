@@ -4,7 +4,7 @@ using Plots
 
 f(x) = log(sum(exp.(x)))
 
-E, K = 5, 1
+E, K = 1, 1
 
 function alloc_timer(n; E, K)
 
@@ -35,4 +35,6 @@ plot!(ns, zygote_diff, label="Zygote Diff")
 plot!(ns, enzyme_fwd_diff, label="Enzyme Fwd")
 plot!(ns, enzyme_rev_diff, label="Enzyme Rev", linecolor="grey")
 plot!(ns, func_eval, label="Func Eval", linecolor="red")
+
+print("benchmarks computed")
 savefig("julia_benchmarks.png")
